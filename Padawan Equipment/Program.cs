@@ -6,14 +6,14 @@ namespace Padawan_Equipment
     {
         static void Main(string[] args)
         {
-            // input
+            // Input
             decimal amountOfMoneyJohnHas = decimal.Parse(Console.ReadLine());
             int studentCount = int.Parse(Console.ReadLine());
             decimal pricePerLightsaber = decimal.Parse(Console.ReadLine());
             decimal pricePerRobe = decimal.Parse(Console.ReadLine());
             decimal pricePerBelt = decimal.Parse(Console.ReadLine());
 
-            // logic
+            // Logic
             decimal numOfLightSabers = Math.Ceiling((decimal) studentCount + (decimal)studentCount * 0.1m);
             decimal numOfFreeBelts = Math.Floor((decimal)studentCount / 6.0m);
 
@@ -23,7 +23,7 @@ namespace Padawan_Equipment
 
             decimal priceNeededEquipment = priceLightSabers + priceRobes + priceBelts;
 
-            // output
+            // Output
             if (priceNeededEquipment <= amountOfMoneyJohnHas)
             {
                 Console.WriteLine($"The money is enough - it would cost {priceNeededEquipment:f2}lv.");
