@@ -63,21 +63,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Train", "Train\Train.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonElements", "CommonElements\CommonElements.csproj", "{FC3536FE-5961-4B84-99A9-92FA2F404CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zig-ZagArrays", "Zig-ZagArrays\Zig-ZagArrays.csproj", "{D7288F54-DE40-4B9E-9FF5-0D2E9C5F1611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zig-ZagArrays", "Zig-ZagArrays\Zig-ZagArrays.csproj", "{D7288F54-DE40-4B9E-9FF5-0D2E9C5F1611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayRotation", "ArrayRotation\ArrayRotation.csproj", "{CDC1B064-C662-4A98-AF2E-0AE41BCDCEC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayRotation", "ArrayRotation\ArrayRotation.csproj", "{CDC1B064-C662-4A98-AF2E-0AE41BCDCEC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopIntegers", "TopIntegers\TopIntegers.csproj", "{FD064E5A-2668-447D-8647-C8D4D1325D42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopIntegers", "TopIntegers\TopIntegers.csproj", "{FD064E5A-2668-447D-8647-C8D4D1325D42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualSum", "EqualSum\EqualSum.csproj", "{F9F696EF-58B2-4F22-8BEB-D35A6B0C53F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EqualSum", "EqualSum\EqualSum.csproj", "{F9F696EF-58B2-4F22-8BEB-D35A6B0C53F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxSequenceOfEqualElements", "MaxSequenceOfEqualElements\MaxSequenceOfEqualElements.csproj", "{3546DDCC-AA70-43CB-AD24-AE73C9E01FDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaxSequenceOfEqualElements", "MaxSequenceOfEqualElements\MaxSequenceOfEqualElements.csproj", "{3546DDCC-AA70-43CB-AD24-AE73C9E01FDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicSum", "MagicSum\MagicSum.csproj", "{08031252-1FD4-4E47-97FA-AC9470AF70FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicSum", "MagicSum\MagicSum.csproj", "{08031252-1FD4-4E47-97FA-AC9470AF70FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaminoFactory", "KaminoFactory\KaminoFactory.csproj", "{D23F7A10-97A5-4033-81DE-F0BC4C79BD27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaminoFactory", "KaminoFactory\KaminoFactory.csproj", "{D23F7A10-97A5-4033-81DE-F0BC4C79BD27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptSortAndPrintArray", "EncryptSortAndPrintArray\EncryptSortAndPrintArray.csproj", "{BE5F4441-2D50-4B02-B51B-94D2A4D7F69A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EncryptSortAndPrintArray", "EncryptSortAndPrintArray\EncryptSortAndPrintArray.csproj", "{BE5F4441-2D50-4B02-B51B-94D2A4D7F69A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{B14C54EA-2D16-4BFC-81F9-08CA1CB458BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveFibonacci", "RecursiveFibonacci\RecursiveFibonacci.csproj", "{59BCC598-6C41-4D72-A0C4-C0739FA64BA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +241,14 @@ Global
 		{BE5F4441-2D50-4B02-B51B-94D2A4D7F69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE5F4441-2D50-4B02-B51B-94D2A4D7F69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE5F4441-2D50-4B02-B51B-94D2A4D7F69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B14C54EA-2D16-4BFC-81F9-08CA1CB458BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B14C54EA-2D16-4BFC-81F9-08CA1CB458BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B14C54EA-2D16-4BFC-81F9-08CA1CB458BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B14C54EA-2D16-4BFC-81F9-08CA1CB458BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BCC598-6C41-4D72-A0C4-C0739FA64BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BCC598-6C41-4D72-A0C4-C0739FA64BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BCC598-6C41-4D72-A0C4-C0739FA64BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BCC598-6C41-4D72-A0C4-C0739FA64BA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
