@@ -117,6 +117,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongerLine", "LongerLine\Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TribonacciSequence", "TribonacciSequence\TribonacciSequence.csproj", "{B28CD8CA-DFD0-44F2-BF47-E69A010C2D94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationSign", "MultiplicationSign\MultiplicationSign.csproj", "{572493B1-8E3F-4560-A49F-B28D5362B7A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +353,10 @@ Global
 		{B28CD8CA-DFD0-44F2-BF47-E69A010C2D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28CD8CA-DFD0-44F2-BF47-E69A010C2D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B28CD8CA-DFD0-44F2-BF47-E69A010C2D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{572493B1-8E3F-4560-A49F-B28D5362B7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{572493B1-8E3F-4560-A49F-B28D5362B7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{572493B1-8E3F-4560-A49F-B28D5362B7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{572493B1-8E3F-4560-A49F-B28D5362B7A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
