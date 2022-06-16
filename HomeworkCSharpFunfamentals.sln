@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenterPoint", "CenterPoint\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongerLine", "LongerLine\LongerLine.csproj", "{F2A6EEBF-9C8F-4279-812B-50DF991988D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TribonacciSequence", "TribonacciSequence\TribonacciSequence.csproj", "{B28CD8CA-DFD0-44F2-BF47-E69A010C2D94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +347,10 @@ Global
 		{F2A6EEBF-9C8F-4279-812B-50DF991988D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2A6EEBF-9C8F-4279-812B-50DF991988D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2A6EEBF-9C8F-4279-812B-50DF991988D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28CD8CA-DFD0-44F2-BF47-E69A010C2D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28CD8CA-DFD0-44F2-BF47-E69A010C2D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28CD8CA-DFD0-44F2-BF47-E69A010C2D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28CD8CA-DFD0-44F2-BF47-E69A010C2D94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
