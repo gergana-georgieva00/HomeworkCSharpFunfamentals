@@ -111,6 +111,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayManipulator", "ArrayMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypes", "DataTypes\DataTypes.csproj", "{675B5A51-7B64-4387-9F8F-CAB051D3D129}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CenterPoint", "CenterPoint\CenterPoint.csproj", "{C7907D27-049D-48C1-B7F7-41EA24807CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongerLine", "LongerLine\LongerLine.csproj", "{F2A6EEBF-9C8F-4279-812B-50DF991988D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +337,14 @@ Global
 		{675B5A51-7B64-4387-9F8F-CAB051D3D129}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{675B5A51-7B64-4387-9F8F-CAB051D3D129}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{675B5A51-7B64-4387-9F8F-CAB051D3D129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7907D27-049D-48C1-B7F7-41EA24807CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7907D27-049D-48C1-B7F7-41EA24807CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7907D27-049D-48C1-B7F7-41EA24807CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7907D27-049D-48C1-B7F7-41EA24807CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A6EEBF-9C8F-4279-812B-50DF991988D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A6EEBF-9C8F-4279-812B-50DF991988D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A6EEBF-9C8F-4279-812B-50DF991988D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A6EEBF-9C8F-4279-812B-50DF991988D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
