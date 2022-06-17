@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Train
 {
@@ -6,20 +8,35 @@ namespace Train
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            List<int> wagons = Console.ReadLine().Split(' ').Select(int.Parse).ToList();
+            int maxCapacityPerWagon = int.Parse(Console.ReadLine());
 
-            int[] people = new int[n];
-            int totalPassengers = 0;
-
-            for (int i = 0; i < n; i++)
+            string command;
+            while ((command = Console.ReadLine()) != "end")
             {
-                people[i] = int.Parse(Console.ReadLine());
-                Console.Write(people[i] + " ");
-                totalPassengers += people[i];
+                if (command.Contains("Add"))
+                {
+                    string[] splitCommand = command.Split(" ", StringSplitOptions.RemoveEmptyEntries).ToArray();
+                    int addToTheWagons = int.Parse(splitCommand[1]);
+                    wagons.Add(addToTheWagons);
+                }
+                else
+                {
+                    int commandInt = int.Parse(command);
+                    for (int i = 0; i < wagons.Count; i++)
+                    {
+                        int currWagon = wagons[i];
+
+                        if (currWagon + commandInt <= maxCapacityPerWagon)
+                        {
+                            wagons[i] += commandInt;
+                            break;
+                        }
+                    }
+                }
             }
 
-            Console.WriteLine();
-            Console.WriteLine(totalPassengers);
+            Console.WriteLine(String.Join(' ', wagons));
         }
     }
 }
