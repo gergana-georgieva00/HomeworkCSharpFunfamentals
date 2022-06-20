@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseParty", "HouseParty\Ho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListOperations", "ListOperations\ListOperations.csproj", "{1111AA48-AFC7-494A-9A43-2627FE7EC3EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BombNumbers", "BombNumbers\BombNumbers.csproj", "{A27C276A-6D2F-4A6B-825C-0C45B0A416E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +377,10 @@ Global
 		{1111AA48-AFC7-494A-9A43-2627FE7EC3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1111AA48-AFC7-494A-9A43-2627FE7EC3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1111AA48-AFC7-494A-9A43-2627FE7EC3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27C276A-6D2F-4A6B-825C-0C45B0A416E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27C276A-6D2F-4A6B-825C-0C45B0A416E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27C276A-6D2F-4A6B-825C-0C45B0A416E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27C276A-6D2F-4A6B-825C-0C45B0A416E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
