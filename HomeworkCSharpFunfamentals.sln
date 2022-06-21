@@ -139,6 +139,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRace", "CarRace\CarRace.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeOrSkipRope", "TakeOrSkipRope\TakeOrSkipRope.csproj", "{70762364-E95E-4930-8D2E-883B6177379C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixedUpLists", "MixedUpLists\MixedUpLists.csproj", "{B9F51714-C680-4A68-9EBD-78DB63583B42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,10 @@ Global
 		{70762364-E95E-4930-8D2E-883B6177379C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70762364-E95E-4930-8D2E-883B6177379C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70762364-E95E-4930-8D2E-883B6177379C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9F51714-C680-4A68-9EBD-78DB63583B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F51714-C680-4A68-9EBD-78DB63583B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F51714-C680-4A68-9EBD-78DB63583B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F51714-C680-4A68-9EBD-78DB63583B42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
