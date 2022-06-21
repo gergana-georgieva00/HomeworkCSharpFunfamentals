@@ -135,6 +135,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousThreat", "Anonymou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging", "Messaging\Messaging.csproj", "{E12BEF0A-96BD-4996-95D1-8C69C6CC90DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRace", "CarRace\CarRace.csproj", "{1FE46CC1-60B3-4E28-BA08-367E99F90752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -405,6 +407,10 @@ Global
 		{E12BEF0A-96BD-4996-95D1-8C69C6CC90DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E12BEF0A-96BD-4996-95D1-8C69C6CC90DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E12BEF0A-96BD-4996-95D1-8C69C6CC90DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE46CC1-60B3-4E28-BA08-367E99F90752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE46CC1-60B3-4E28-BA08-367E99F90752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE46CC1-60B3-4E28-BA08-367E99F90752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE46CC1-60B3-4E28-BA08-367E99F90752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
