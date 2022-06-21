@@ -47,40 +47,27 @@ namespace AnonymousThreat
                 else
                 {
                     int index = int.Parse(splitCommand[1]);
+
                     int partitions = int.Parse(splitCommand[2]);
 
                     string partToDivide = input[index];
+
                     input.RemoveAt(index);
 
-                    
-                    if (partToDivide.Length % partitions == 0)
+                    int step = partToDivide.Length / partitions;
+                    List<string> cutted = new List<string>();
+                    for (int i = 0; i < partitions; i++)
                     {
-                        int chunkSize = partToDivide.Length / partitions;
-                        for (int i = 0; i < partToDivide.Length; i += chunkSize)
+                        if (i == partitions - 1)
                         {
-                            if (i + chunkSize > partToDivide.Length)
-                            {
-                                chunkSize = partToDivide.Length - i;
-                            }
-
-                            input.Insert(index, partToDivide.Substring(i, chunkSize));
-                            index++;
+                            cutted.Add(partToDivide.Substring(i * step));
+                        }
+                        else
+                        {
+                            cutted.Add(partToDivide.Substring(i * step, step));
                         }
                     }
-                    else
-                    {
-                        int chunkSize = partToDivide.Length / partitions;
-                        for (int i = 0; i < partToDivide.Length; i += chunkSize)
-                        {
-                            if (i + chunkSize >= partToDivide.Length - partitions)
-                            {
-                                chunkSize = partToDivide.Length - i;
-                            }
-
-                            input.Insert(index, partToDivide.Substring(i, chunkSize));
-                            index++;
-                        }
-                    }
+                    input.InsertRange(index, cutted);
                 }
             }
 
