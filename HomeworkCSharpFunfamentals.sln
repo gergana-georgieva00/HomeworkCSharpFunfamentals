@@ -145,6 +145,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrumSet", "DrumSet\DrumSet.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuineaPig", "GuineaPig\GuineaPig.csproj", "{F9963223-4AE7-4A13-BB33-1D4E45A3CEA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLift", "TheLift\TheLift.csproj", "{4049481D-193D-407B-85D7-7FA8AB1D15BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +437,10 @@ Global
 		{F9963223-4AE7-4A13-BB33-1D4E45A3CEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9963223-4AE7-4A13-BB33-1D4E45A3CEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9963223-4AE7-4A13-BB33-1D4E45A3CEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4049481D-193D-407B-85D7-7FA8AB1D15BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4049481D-193D-407B-85D7-7FA8AB1D15BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4049481D-193D-407B-85D7-7FA8AB1D15BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4049481D-193D-407B-85D7-7FA8AB1D15BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
