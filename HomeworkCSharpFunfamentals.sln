@@ -151,6 +151,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingTarget", "MovingTarge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterStrike", "CounterStrike\CounterStrike.csproj", "{9D06951C-2A9C-44A7-89A5-B08CB9933F08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootForTheWin", "ShootForTheWin\ShootForTheWin.csproj", "{B1601604-91EF-4CC8-AF39-3C5DAF809C65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -453,6 +455,10 @@ Global
 		{9D06951C-2A9C-44A7-89A5-B08CB9933F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D06951C-2A9C-44A7-89A5-B08CB9933F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D06951C-2A9C-44A7-89A5-B08CB9933F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1601604-91EF-4CC8-AF39-3C5DAF809C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1601604-91EF-4CC8-AF39-3C5DAF809C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1601604-91EF-4CC8-AF39-3C5DAF809C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1601604-91EF-4CC8-AF39-3C5DAF809C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
