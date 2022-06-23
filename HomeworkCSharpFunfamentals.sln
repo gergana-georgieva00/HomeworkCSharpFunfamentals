@@ -127,25 +127,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListOperations", "ListOpera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BombNumbers", "BombNumbers\BombNumbers.csproj", "{A27C276A-6D2F-4A6B-825C-0C45B0A416E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsGame", "CardsGame\CardsGame.csproj", "{349C1506-C855-4AAC-ABEC-7B5026AF078D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardsGame", "CardsGame\CardsGame.csproj", "{349C1506-C855-4AAC-ABEC-7B5026AF078D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendArrays", "AppendArrays\AppendArrays.csproj", "{6FC5509B-3CD6-409D-86BB-2DB88E8C9DA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppendArrays", "AppendArrays\AppendArrays.csproj", "{6FC5509B-3CD6-409D-86BB-2DB88E8C9DA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousThreat", "AnonymousThreat\AnonymousThreat.csproj", "{7E2CA145-BF41-41D1-8BEB-A44FF8ABA541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousThreat", "AnonymousThreat\AnonymousThreat.csproj", "{7E2CA145-BF41-41D1-8BEB-A44FF8ABA541}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging", "Messaging\Messaging.csproj", "{E12BEF0A-96BD-4996-95D1-8C69C6CC90DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messaging", "Messaging\Messaging.csproj", "{E12BEF0A-96BD-4996-95D1-8C69C6CC90DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRace", "CarRace\CarRace.csproj", "{1FE46CC1-60B3-4E28-BA08-367E99F90752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRace", "CarRace\CarRace.csproj", "{1FE46CC1-60B3-4E28-BA08-367E99F90752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TakeOrSkipRope", "TakeOrSkipRope\TakeOrSkipRope.csproj", "{70762364-E95E-4930-8D2E-883B6177379C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakeOrSkipRope", "TakeOrSkipRope\TakeOrSkipRope.csproj", "{70762364-E95E-4930-8D2E-883B6177379C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixedUpLists", "MixedUpLists\MixedUpLists.csproj", "{B9F51714-C680-4A68-9EBD-78DB63583B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MixedUpLists", "MixedUpLists\MixedUpLists.csproj", "{B9F51714-C680-4A68-9EBD-78DB63583B42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrumSet", "DrumSet\DrumSet.csproj", "{6525AC2A-0ABE-4254-842F-31BE05D0F7BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DrumSet", "DrumSet\DrumSet.csproj", "{6525AC2A-0ABE-4254-842F-31BE05D0F7BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuineaPig", "GuineaPig\GuineaPig.csproj", "{F9963223-4AE7-4A13-BB33-1D4E45A3CEA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuineaPig", "GuineaPig\GuineaPig.csproj", "{F9963223-4AE7-4A13-BB33-1D4E45A3CEA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLift", "TheLift\TheLift.csproj", "{4049481D-193D-407B-85D7-7FA8AB1D15BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheLift", "TheLift\TheLift.csproj", "{4049481D-193D-407B-85D7-7FA8AB1D15BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingTarget", "MovingTarget\MovingTarget.csproj", "{7DE213DC-9184-4B24-9F44-04CDA7232B61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -441,6 +443,10 @@ Global
 		{4049481D-193D-407B-85D7-7FA8AB1D15BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4049481D-193D-407B-85D7-7FA8AB1D15BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4049481D-193D-407B-85D7-7FA8AB1D15BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE213DC-9184-4B24-9F44-04CDA7232B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE213DC-9184-4B24-9F44-04CDA7232B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE213DC-9184-4B24-9F44-04CDA7232B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE213DC-9184-4B24-9F44-04CDA7232B61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
