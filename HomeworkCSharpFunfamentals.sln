@@ -155,6 +155,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootForTheWin", "ShootForT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryGame", "MemoryGame\MemoryGame.csproj", "{C11FB11C-898C-47E7-A8FA-8AEB3B2878F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonDontGo", "PokemonDontDOGo\PokemonDontGo.csproj", "{97F3B463-23AC-44EF-9771-398A9CB569EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -465,6 +467,10 @@ Global
 		{C11FB11C-898C-47E7-A8FA-8AEB3B2878F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C11FB11C-898C-47E7-A8FA-8AEB3B2878F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C11FB11C-898C-47E7-A8FA-8AEB3B2878F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F3B463-23AC-44EF-9771-398A9CB569EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F3B463-23AC-44EF-9771-398A9CB569EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F3B463-23AC-44EF-9771-398A9CB569EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F3B463-23AC-44EF-9771-398A9CB569EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
