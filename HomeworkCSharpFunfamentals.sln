@@ -147,23 +147,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuineaPig", "GuineaPig\Guin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheLift", "TheLift\TheLift.csproj", "{4049481D-193D-407B-85D7-7FA8AB1D15BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingTarget", "MovingTarget\MovingTarget.csproj", "{7DE213DC-9184-4B24-9F44-04CDA7232B61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovingTarget", "MovingTarget\MovingTarget.csproj", "{7DE213DC-9184-4B24-9F44-04CDA7232B61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterStrike", "CounterStrike\CounterStrike.csproj", "{9D06951C-2A9C-44A7-89A5-B08CB9933F08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterStrike", "CounterStrike\CounterStrike.csproj", "{9D06951C-2A9C-44A7-89A5-B08CB9933F08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShootForTheWin", "ShootForTheWin\ShootForTheWin.csproj", "{B1601604-91EF-4CC8-AF39-3C5DAF809C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShootForTheWin", "ShootForTheWin\ShootForTheWin.csproj", "{B1601604-91EF-4CC8-AF39-3C5DAF809C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryGame", "MemoryGame\MemoryGame.csproj", "{C11FB11C-898C-47E7-A8FA-8AEB3B2878F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryGame", "MemoryGame\MemoryGame.csproj", "{C11FB11C-898C-47E7-A8FA-8AEB3B2878F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonDontGo", "PokemonDontDOGo\PokemonDontGo.csproj", "{97F3B463-23AC-44EF-9771-398A9CB569EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonDontGo", "PokemonDontDOGo\PokemonDontGo.csproj", "{97F3B463-23AC-44EF-9771-398A9CB569EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniCoursePlanning", "SoftUniCoursePlanning\SoftUniCoursePlanning.csproj", "{BF81F81E-2368-48D4-AE5C-369278F50A7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniCoursePlanning", "SoftUniCoursePlanning\SoftUniCoursePlanning.csproj", "{BF81F81E-2368-48D4-AE5C-369278F50A7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperienceGaining", "ExperienceGaining\ExperienceGaining.csproj", "{FEEEE0BB-8A6B-4AF0-88C7-6AE08C514835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExperienceGaining", "ExperienceGaining\ExperienceGaining.csproj", "{FEEEE0BB-8A6B-4AF0-88C7-6AE08C514835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers", "Numbers\Numbers.csproj", "{706C1A61-185A-475E-99E5-FE4957029036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numbers", "Numbers\Numbers.csproj", "{706C1A61-185A-475E-99E5-FE4957029036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop", "PhoneShop\PhoneShop.csproj", "{58297C33-774B-4EED-B19E-D35FC320A4AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneShop", "PhoneShop\PhoneShop.csproj", "{58297C33-774B-4EED-B19E-D35FC320A4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomizeWords", "RandomizeWords\RandomizeWords.csproj", "{3D76DAF0-C315-4871-B0A4-9CE5D63ACF3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -495,6 +497,10 @@ Global
 		{58297C33-774B-4EED-B19E-D35FC320A4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58297C33-774B-4EED-B19E-D35FC320A4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58297C33-774B-4EED-B19E-D35FC320A4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D76DAF0-C315-4871-B0A4-9CE5D63ACF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D76DAF0-C315-4871-B0A4-9CE5D63ACF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D76DAF0-C315-4871-B0A4-9CE5D63ACF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D76DAF0-C315-4871-B0A4-9CE5D63ACF3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
