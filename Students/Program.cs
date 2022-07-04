@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Students
 {
@@ -7,43 +8,46 @@ namespace Students
     {
         static void Main(string[] args)
         {
-            List<Student> allStudents = new List<Student>();
+            int n = int.Parse(Console.ReadLine());
 
-            string input;
-            while ((input = Console.ReadLine()) != "end")
+            Students students = new Students();
+
+            for (int i = 0; i < n; i++)
             {
-                string[] splitInput = input.Split(' ');
-                Student student = new Student(splitInput[0], splitInput[1], int.Parse(splitInput[2]), splitInput[3]);
+                string[] input = Console.ReadLine().Split(' ');
 
-                allStudents.Add(student);
+                Student student = new Student(input[0], input[1], double.Parse(input[2]));
+                students.StudentsList.Add(student);
             }
 
-            string cityName = Console.ReadLine();
-
-            foreach (var student in allStudents)
+            foreach (var student in students.StudentsList.OrderByDescending(student => student.Grade))
             {
-                if (student.Hometown == cityName)
-                {
-                    Console.WriteLine($"{student.FirstName} {student.LastName} is {student.Age} years old.");
-                }
+                Console.WriteLine($"{student.FirstName} {student.LastName}: {student.Grade:f2}");
             }
         }
     }
 
     class Student
     {
-        public Student(string firstName, string lastName, int age, string homeTown)
+        public Student(string firstName, string lastName, double grade)
         {
             this.FirstName = firstName;
             this.LastName = lastName;
-            this.Age = age;
-            this.Hometown = homeTown;
+            this.Grade = grade;
         }
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int Age { get; set; }
-        public string Hometown { get; set; }
+        public double Grade { get; set; }
+    }
 
+    class Students
+    {
+        public Students()
+        {
+            this.StudentsList = new List<Student>();
+        }
+
+        public List<Student> StudentsList { get; set; }
     }
 }
