@@ -13,7 +13,7 @@ namespace StoreBoxes
             string command;
             while ((command = Console.ReadLine()) != "end")
             {
-                string[] input = Console.ReadLine().Split(' ');
+                string[] input = command.Split(' ');
 
                 Box box = new Box
                 {
@@ -32,7 +32,7 @@ namespace StoreBoxes
             foreach (Box box in boxes.OrderByDescending(box => box.PriceBox))
             {
                 Console.WriteLine(box.SerialNumber);
-                Console.WriteLine($"-- {box.Item.Name} – ${box.Item.Price:f2}: {box.ItemQuantity}");
+                Console.WriteLine($"-- {box.Item.Name} - ${box.Item.Price:f2}: {box.ItemQuantity}");
                 Console.WriteLine($"-- ${box.PriceBox:f2}");
             }
         }
