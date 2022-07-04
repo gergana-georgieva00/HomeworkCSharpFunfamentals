@@ -175,6 +175,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "Students\Studen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students2.0", "Students2.0\Students2.0.csproj", "{E378D379-2FB0-412D-8FB7-0F1AF42741C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreBoxes", "StoreBoxes\StoreBoxes.csproj", "{0E29B9B6-9BC0-48F2-9196-0B40788B7915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleCatalogue", "VehicleCatalogue\VehicleCatalogue.csproj", "{4625C483-BFC9-4E92-8F54-70B9367F0781}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -525,6 +529,14 @@ Global
 		{E378D379-2FB0-412D-8FB7-0F1AF42741C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E378D379-2FB0-412D-8FB7-0F1AF42741C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E378D379-2FB0-412D-8FB7-0F1AF42741C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E29B9B6-9BC0-48F2-9196-0B40788B7915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E29B9B6-9BC0-48F2-9196-0B40788B7915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E29B9B6-9BC0-48F2-9196-0B40788B7915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E29B9B6-9BC0-48F2-9196-0B40788B7915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4625C483-BFC9-4E92-8F54-70B9367F0781}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4625C483-BFC9-4E92-8F54-70B9367F0781}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4625C483-BFC9-4E92-8F54-70B9367F0781}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4625C483-BFC9-4E92-8F54-70B9367F0781}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
