@@ -8,73 +8,118 @@ namespace VehicleCatalogue
     {
         static void Main(string[] args)
         {
-            Catalog catalog = new Catalog();
-
+            List<Car> cars = new List<Car>();
+            List<Truck> trucks = new List<Truck>();
             string command;
-            while ((command = Console.ReadLine()) != "end")
+            while ((command = Console.ReadLine()) != "End")
             {
-                string[] splitCom = command.Split('/');
+                string[] input = command.Split(' ');
+                string typeOfVehicle = input[0];
+                string model = input[1];
+                string color = input[2];
+                int horsepower = int.Parse(input[3]);
 
-                if (splitCom[0] == "Car")
+                if (typeOfVehicle == "car")
                 {
-                    Car car = new Car
+                    Car car = new Car()
                     {
-                        Brand = splitCom[1],
-                        Model = splitCom[2],
-                        HorsePower = double.Parse(splitCom[3])
+                        Model = model,
+                        Color = color,
+                        Horsepower = horsepower
                     };
 
-                    catalog.Cars.Add(car);
+                    cars.Add(car);
                 }
                 else
                 {
-                    Truck truck = new Truck
+                    Truck truck = new Truck()
                     {
-                        Brand = splitCom[1],
-                        Model = splitCom[2],
-                        Weight = double.Parse(splitCom[3])
+                        Model = model,
+                        Color = color,
+                        Horsepower = horsepower
                     };
 
-                    catalog.Trucks.Add(truck);
+                    trucks.Add(truck);
                 }
             }
 
-            Console.WriteLine("Cars:");
-            foreach (var car in catalog.Cars.OrderBy(car => car.Brand))
+            List<string> vehicles = new List<string>();
+            string info;
+            while ((info = Console.ReadLine()) != "Close the Catalogue")
             {
-                Console.WriteLine($"{car.Brand}: {car.Model} - {car.HorsePower}hp");
+                vehicles.Add(info);
             }
 
-            Console.WriteLine("Trucks:");
-            foreach (var truck in catalog.Trucks.OrderBy(truck => truck.Brand))
+            int horsePowerCars = 0;
+            foreach (var car in cars)
             {
-                Console.WriteLine($"{truck.Brand}: {truck.Model} - {truck.Weight}kg");
+                horsePowerCars += car.Horsepower;
             }
+
+            int horsePowerTrucks = 0;
+            foreach (var truck in trucks)
+            {
+                horsePowerTrucks += truck.Horsepower;
+            }
+
+
+            foreach (var vehicle in vehicles)
+            {
+                foreach (var car in cars)
+                {
+                    if (car.Model == vehicle)
+                    {
+                        Console.WriteLine("Type: Car");
+                        Console.WriteLine($"Model: {car.Model}");
+                        Console.WriteLine($"Color: {car.Color}");
+                        Console.WriteLine($"Horsepower: {car.Horsepower}");
+                    }
+                }
+
+                foreach (var truck in trucks)
+                {
+                    if (truck.Model == vehicle)
+                    {
+                        Console.WriteLine("Type: Truck");
+                        Console.WriteLine($"Model: {truck.Model}");
+                        Console.WriteLine($"Color: {truck.Color}");
+                        Console.WriteLine($"Horsepower: {truck.Horsepower}");
+                    }
+                }
+            }
+
+            if (cars.Count > 0)
+            {
+                Console.WriteLine($"Cars have average horsepower of: {(double)((double)horsePowerCars / (double)cars.Count):f2}.");
+            }
+            else
+            {
+                Console.WriteLine($"Cars have average horsepower of: 0.00.");
+            }
+
+            if (trucks.Count > 0)
+            {
+                Console.WriteLine($"Trucks have average horsepower of: {(double)((double)horsePowerTrucks / (double)trucks.Count):f2}.");
+            }
+            else
+            {
+                Console.WriteLine($"Trucks have average horsepower of: 0.00.");
+            }
+            
         }
-    }
-
-    class Truck
-    {
-        public string Brand { get; set; }
-        public string Model { get; set; }
-        public double Weight { get; set; }
     }
 
     class Car
     {
-        public string Brand { get; set; }
         public string Model { get; set; }
-        public double HorsePower { get; set; }
+        public string Color { get; set; }
+        public int Horsepower { get; set; }
     }
 
-    class Catalog
+    class Truck
     {
-        public Catalog()
-        {
-            this.Cars = new List<Car>();
-            this.Trucks = new List<Truck>();
-        }
-        public List<Truck> Trucks { get; set; }
-        public List<Car> Cars { get; set; }
+        public string Model { get; set; }
+        public string Color { get; set; }
+        public int Horsepower { get; set; }
     }
 }
