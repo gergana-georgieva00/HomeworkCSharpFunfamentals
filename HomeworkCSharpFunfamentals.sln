@@ -197,6 +197,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeedRacing", "SpeedRacing\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawData", "RawData\RawData.csproj", "{97A00CD4-70A7-4F69-8366-29CAEAE40E4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingSpree", "ShoppingSpree\ShoppingSpree.csproj", "{CC4EC96B-D342-4184-888B-849B8BE350A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -591,6 +593,10 @@ Global
 		{97A00CD4-70A7-4F69-8366-29CAEAE40E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97A00CD4-70A7-4F69-8366-29CAEAE40E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97A00CD4-70A7-4F69-8366-29CAEAE40E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4EC96B-D342-4184-888B-849B8BE350A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4EC96B-D342-4184-888B-849B8BE350A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4EC96B-D342-4184-888B-849B8BE350A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4EC96B-D342-4184-888B-849B8BE350A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
