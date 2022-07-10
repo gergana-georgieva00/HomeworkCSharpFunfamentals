@@ -12,10 +12,7 @@ namespace WordFilter
                             .Where(w => w.Length % 2 == 0)
                             .ToArray();
 
-            foreach (var word in arr)
-            {
-                Console.WriteLine(word);
-            }
+            Console.WriteLine(string.Join(Environment.NewLine, arr));
         }
     }
 }
