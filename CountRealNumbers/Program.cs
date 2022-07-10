@@ -9,9 +9,8 @@ namespace CountRealNumbers
         static void Main(string[] args)
         {
             List<double> numbers = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
-            numbers.Sort();
 
-            Dictionary<double, int> numsWithOccurrences = new Dictionary<double, int>();
+            SortedDictionary<double, int> numsWithOccurrences = new SortedDictionary<double, int>();
 
             foreach (var number in numbers)
             {
