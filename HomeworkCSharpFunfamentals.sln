@@ -211,6 +211,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCharsInAString", "Coun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMinerTask", "AMinerTask\AMinerTask.csproj", "{007DB32F-BF29-44F9-A89F-6F3FA8B4B46B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniParking", "SoftUniParking\SoftUniParking.csproj", "{A0B07D1A-A8B0-4372-ADE8-0A21ACE4B7B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -633,6 +635,10 @@ Global
 		{007DB32F-BF29-44F9-A89F-6F3FA8B4B46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{007DB32F-BF29-44F9-A89F-6F3FA8B4B46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{007DB32F-BF29-44F9-A89F-6F3FA8B4B46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B07D1A-A8B0-4372-ADE8-0A21ACE4B7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B07D1A-A8B0-4372-ADE8-0A21ACE4B7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B07D1A-A8B0-4372-ADE8-0A21ACE4B7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B07D1A-A8B0-4372-ADE8-0A21ACE4B7B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
