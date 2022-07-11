@@ -207,6 +207,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSynomyms", "WordSynomym
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFilter", "WordFilter\WordFilter.csproj", "{A0ED0844-22D6-48BB-9816-4E9A40075F01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCharsInAString", "CountCharsInAString\CountCharsInAString.csproj", "{8CC46D1E-A7DF-4279-9020-6066312417E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -621,6 +623,10 @@ Global
 		{A0ED0844-22D6-48BB-9816-4E9A40075F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0ED0844-22D6-48BB-9816-4E9A40075F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0ED0844-22D6-48BB-9816-4E9A40075F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC46D1E-A7DF-4279-9020-6066312417E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC46D1E-A7DF-4279-9020-6066312417E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC46D1E-A7DF-4279-9020-6066312417E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC46D1E-A7DF-4279-9020-6066312417E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
