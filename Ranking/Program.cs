@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace Ranking
 {
@@ -58,13 +59,25 @@ namespace Ranking
 
             int bestPoints = int.MinValue;
             string bestUser = "";
+
+            StringBuilder sb = new StringBuilder();
+
             foreach (var userPair in nameContestPoints)
             {
                 int currentUserPoints = 0;
-                foreach (var contestPair in userPair.Value)
+                sb.Append(userPair.Key);
+                foreach (var contestPointsPair 
+                    in userPair.Value.Keys
+                    .Select(x => new { Contest = x, Points = userPair.Value[x]})
+                    .OrderByDescending(x => x.Points)
+                    .ToList())
                 {
-                    currentUserPoints += contestPair.Value;
+                    currentUserPoints += contestPointsPair.Points;
+                    sb.AppendLine();
+                    sb.Append($"#  {contestPointsPair.Contest} -> {contestPointsPair.Points}");
                 }
+
+                sb.AppendLine();
 
                 if (currentUserPoints > bestPoints)
                 {
@@ -74,28 +87,8 @@ namespace Ranking
             }
 
             Console.WriteLine($"Best candidate is {bestUser} with total {bestPoints} points.");
-
-            
-
-            //foreach (var nameDictPair in nameContestPoints)
-            //{
-            //    Console.WriteLine(nameDictPair.Key);
-
-            //    foreach (var item in nameDictPair.Value.OrderByDescending(item => item.Value))
-            //    {
-
-            //    }
-
-            //    //nameDictPair.Value.OrderByDescending(x => x.Value);
-            //    //foreach (var contPoDict in nameDictPair.Value.OrderByDescending(x => x.Value))
-            //    //{
-            //    //    Console.WriteLine();
-            //    //}
-
-            //}
-
-            //nameContestPoints.Values.OrderByDescending(x => x.Values);
-
+            Console.WriteLine("Ranking:");
+            Console.WriteLine(sb.ToString());
         }
     }
 }
