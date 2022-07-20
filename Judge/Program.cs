@@ -86,9 +86,7 @@ namespace Judge
 
             int counterr = 1;
 
-
-
-            foreach (var pair in individualStatistics)
+            foreach (var pair in individualStatistics.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
             {
                 Console.WriteLine($"{counterr}. {pair.Key} -> {pair.Value}");
 
