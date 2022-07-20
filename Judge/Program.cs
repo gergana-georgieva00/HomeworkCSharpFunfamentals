@@ -18,56 +18,24 @@ namespace Judge
                 string contest = input.Split(" -> ")[1];
                 int points = int.Parse(input.Split(" -> ")[2]);
 
-                //
-                if (!individualStatistics.ContainsKey(username))
-                {
-                    individualStatistics.Add(username, points);
-                }
-                
-                //
-
                 if (contestsAndTheirUsers.ContainsKey(contest))
                 {
-                    if (individualStatistics[username] < points && contestsAndTheirUsers[contest].ContainsKey(username))
-                    {
-                        individualStatistics[username] = points;
-                    }
-
                     if (contestsAndTheirUsers[contest].ContainsKey(username))
                     {
                         if (contestsAndTheirUsers[contest][username] < points)
                         {
                             contestsAndTheirUsers[contest][username] = points;
-
-                            if (!contestsAndTheirUsers.ContainsKey(contest))
-                            {
-                                individualStatistics[username] += points;
-                            }
-                            else
-                            {
-                               // individualStatistics[username] = points;
-                            }
                         }
                     }
                     else
                     {
                         contestsAndTheirUsers[contest].Add(username, points);
-
-                        if (!individualStatistics.ContainsKey(username))
-                        {
-                            individualStatistics[username] += points;
-                        }
                     }
                 }
                 else
                 {
                     contestsAndTheirUsers.Add(contest, new Dictionary<string, int>());
                     contestsAndTheirUsers[contest].Add(username, points);
-
-                    if (individualStatistics.ContainsKey(username))
-                    {
-                        individualStatistics[username] += points;
-                    }
                 }
 
                 
@@ -98,9 +66,34 @@ namespace Judge
                 }
             }
 
-            
+            foreach (var contestValuePair in contestsAndTheirUsers)
+            {
+                foreach (var usernamePoints in contestValuePair.Value)
+                {
+                    if (!individualStatistics.ContainsKey(usernamePoints.Key))
+                    {
+                        individualStatistics.Add(usernamePoints.Key, usernamePoints.Value);
+                    }
+                    else
+                    {
+                        individualStatistics[usernamePoints.Key] += usernamePoints.Value;
+                    }
+                }
+                
+            }
+
             Console.WriteLine("Individual standings:");
 
+            int counterr = 1;
+
+
+
+            foreach (var pair in individualStatistics)
+            {
+                Console.WriteLine($"{counterr}. {pair.Key} -> {pair.Value}");
+
+                counterr++;
+            }
         }
     }
 }
