@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MOBAChallenger
 {
@@ -93,9 +94,41 @@ namespace MOBAChallenger
                         }
                     }
                 }
+            }
 
-                // sort and print results
+            // print the players, ordered by total skill in descending order,
+            // then ordered by player name in ascending order.
+             
+            // Foreach player print their position and skill, ordered descending by skill,
+            // then ordered by position name in ascending order.
 
+
+            Dictionary<string, int> playerPoints = new Dictionary<string, int>();
+
+            foreach (var playerDic in playerPositionSkill)
+            {
+                foreach (var positionSkill in playerDic.Value)
+                {
+                    if (playerPoints.ContainsKey(playerDic.Key))
+                    {
+                        playerPoints[playerDic.Key] += positionSkill.Value;
+                    }
+                    else
+                    {
+                        playerPoints.Add(playerDic.Key, positionSkill.Value);
+                    }
+                }
+            }
+
+            // print
+            foreach (var item in playerPoints.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
+            {
+                Console.WriteLine($"{item.Key}: {item.Value} skill");
+
+                foreach (var playerDic in playerPositionSkill[item.Key].OrderByDescending(x => x.Value).ThenBy(x => x.Key))
+                {
+                    Console.WriteLine($"- {playerDic.Key} <::> {playerDic.Value}");
+                }
             }
         }
     }
