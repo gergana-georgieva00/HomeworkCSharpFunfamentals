@@ -199,29 +199,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawData", "RawData\RawData.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingSpree", "ShoppingSpree\ShoppingSpree.csproj", "{CC4EC96B-D342-4184-888B-849B8BE350A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountRealNumbers", "CountRealNumbers\CountRealNumbers.csproj", "{0C302788-4E92-458F-A375-9387A3C7BCDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountRealNumbers", "CountRealNumbers\CountRealNumbers.csproj", "{0C302788-4E92-458F-A375-9387A3C7BCDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrences", "OddOccurrences\OddOccurrences.csproj", "{ED6F64E1-D84A-46D8-8D17-760CDFA91EC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OddOccurrences", "OddOccurrences\OddOccurrences.csproj", "{ED6F64E1-D84A-46D8-8D17-760CDFA91EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordSynomyms", "WordSynomyms\WordSynomyms.csproj", "{5B14A5C8-3801-448D-B5A7-FA67F4F31CEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordSynomyms", "WordSynomyms\WordSynomyms.csproj", "{5B14A5C8-3801-448D-B5A7-FA67F4F31CEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFilter", "WordFilter\WordFilter.csproj", "{A0ED0844-22D6-48BB-9816-4E9A40075F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFilter", "WordFilter\WordFilter.csproj", "{A0ED0844-22D6-48BB-9816-4E9A40075F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountCharsInAString", "CountCharsInAString\CountCharsInAString.csproj", "{8CC46D1E-A7DF-4279-9020-6066312417E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountCharsInAString", "CountCharsInAString\CountCharsInAString.csproj", "{8CC46D1E-A7DF-4279-9020-6066312417E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMinerTask", "AMinerTask\AMinerTask.csproj", "{007DB32F-BF29-44F9-A89F-6F3FA8B4B46B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AMinerTask", "AMinerTask\AMinerTask.csproj", "{007DB32F-BF29-44F9-A89F-6F3FA8B4B46B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniParking", "SoftUniParking\SoftUniParking.csproj", "{A0B07D1A-A8B0-4372-ADE8-0A21ACE4B7B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniParking", "SoftUniParking\SoftUniParking.csproj", "{A0B07D1A-A8B0-4372-ADE8-0A21ACE4B7B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Courses", "Courses\Courses.csproj", "{EA69FC78-C6D1-4E9A-9B7F-266B09CD1C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Courses", "Courses\Courses.csproj", "{EA69FC78-C6D1-4E9A-9B7F-266B09CD1C86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAcademy", "StudentAcademy\StudentAcademy.csproj", "{DA91CBDB-D593-4FD4-AB01-7A486BB47364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAcademy", "StudentAcademy\StudentAcademy.csproj", "{DA91CBDB-D593-4FD4-AB01-7A486BB47364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyUsers", "CompanyUsers\CompanyUsers.csproj", "{39D93162-33EE-4746-9630-CD165347BD5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyUsers", "CompanyUsers\CompanyUsers.csproj", "{39D93162-33EE-4746-9630-CD165347BD5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranking", "Ranking\Ranking.csproj", "{12F1BFDA-B7BA-4248-AAE5-D43BF374AF8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ranking", "Ranking\Ranking.csproj", "{12F1BFDA-B7BA-4248-AAE5-D43BF374AF8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Judge", "Judge\Judge.csproj", "{7999537C-ADE2-453D-8E1C-EB21DC697775}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Judge", "Judge\Judge.csproj", "{7999537C-ADE2-453D-8E1C-EB21DC697775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOBAChallenger", "MOBAChallenger\MOBAChallenger.csproj", "{A0AA5BCD-CFB4-40DD-BD00-00ADEE6ED967}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -669,6 +671,10 @@ Global
 		{7999537C-ADE2-453D-8E1C-EB21DC697775}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7999537C-ADE2-453D-8E1C-EB21DC697775}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7999537C-ADE2-453D-8E1C-EB21DC697775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0AA5BCD-CFB4-40DD-BD00-00ADEE6ED967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0AA5BCD-CFB4-40DD-BD00-00ADEE6ED967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0AA5BCD-CFB4-40DD-BD00-00ADEE6ED967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0AA5BCD-CFB4-40DD-BD00-00ADEE6ED967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
