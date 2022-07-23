@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Snowwhite
 {
@@ -41,7 +43,50 @@ namespace Snowwhite
             // and then by the total count of dwarfs with the same hat color in descending order.
             // If all sorting criteria fail, the order should be by order of input.
 
+            Dictionary<long, Dictionary<string, List<string>>> physicsColorName = new Dictionary<long, Dictionary<string, List<string>>>();
 
+            foreach (var colorDic in dwarves)
+            {
+                foreach (var namePhy in colorDic.Value)
+                {
+                    if (physicsColorName.ContainsKey(namePhy.Value))
+                    {
+                        if (physicsColorName[namePhy.Value].ContainsKey(colorDic.Key))
+                        {
+                            physicsColorName[namePhy.Value][colorDic.Key].Add(namePhy.Key);
+                        }
+                        else
+                        {
+                            physicsColorName[namePhy.Value].Add(colorDic.Key, new List<string>());
+                            physicsColorName[namePhy.Value][colorDic.Key].Add(namePhy.Key);
+                        }
+                    }
+                    else
+                    {
+                        physicsColorName.Add(namePhy.Value, new Dictionary<string, List<string>>());
+                        physicsColorName[namePhy.Value].Add(colorDic.Key, new List<string>());
+                        physicsColorName[namePhy.Value][colorDic.Key].Add(namePhy.Key);
+                    }
+
+                    physicsColorName[namePhy.Value].OrderByDescending(x => x.Value.Count);
+                }
+            }
+
+            physicsColorName = physicsColorName.OrderByDescending(x => x.Key)
+                .ToDictionary(x => x.Key, x => x.Value.OrderByDescending(y => y.Value.Count)
+                .ToDictionary(y => y.Key, y => y.Value));
+
+            // print
+            foreach (var phyDic in physicsColorName)
+            {
+                foreach (var colorName in phyDic.Value)
+                {
+                    foreach (var name in colorName.Value)
+                    {
+                        Console.WriteLine($"({colorName.Key}) {name} <-> {phyDic.Key}");
+                    }
+                }
+            }
         }
     }
 }
