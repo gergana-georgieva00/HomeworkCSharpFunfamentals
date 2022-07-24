@@ -237,6 +237,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Substring", "Substring\Subs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextFilter", "TextFilter\TextFilter.csproj", "{B9C2CC76-3AE0-4449-8CF7-6AFCA3AF3E17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsLettersAndOthers", "DigitsLettersAndOthers\DigitsLettersAndOthers.csproj", "{6D6B7153-3FD7-4AF4-BEBD-E3F88CCD1048}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -711,6 +713,10 @@ Global
 		{B9C2CC76-3AE0-4449-8CF7-6AFCA3AF3E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9C2CC76-3AE0-4449-8CF7-6AFCA3AF3E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9C2CC76-3AE0-4449-8CF7-6AFCA3AF3E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6B7153-3FD7-4AF4-BEBD-E3F88CCD1048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6B7153-3FD7-4AF4-BEBD-E3F88CCD1048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6B7153-3FD7-4AF4-BEBD-E3F88CCD1048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6B7153-3FD7-4AF4-BEBD-E3F88CCD1048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
