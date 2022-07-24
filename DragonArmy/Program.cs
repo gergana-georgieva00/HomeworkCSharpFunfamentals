@@ -19,9 +19,9 @@ namespace DragonArmy
 
                 string type = input[0];
                 string name = input[1];
-                int damage = int.Parse(input[2]);
-                int health = int.Parse(input[3]);
-                int armor = int.Parse(input[4]);
+                string damage = input[2];
+                string health = input[3];
+                string armor = input[4];
 
                 if (!dragons.ContainsKey(type))
                 {
@@ -38,9 +38,9 @@ namespace DragonArmy
                             {
                                 if (dragon.Name == name)
                                 {
-                                    dragon.Damage = damage;
-                                    dragon.Health = health;
-                                    dragon.Armor = armor;
+                                    dragon.Damage = double.Parse(damage);
+                                    dragon.Health = double.Parse(health);
+                                    dragon.Armor = double.Parse(armor);
                                 }
                             }
                         }
@@ -59,13 +59,36 @@ namespace DragonArmy
             dragons = dragons.ToDictionary(d => d.Key, d => d.Value.OrderBy(d => d.Name).ToList());
 
             // print stats
+            foreach (var kvp in dragons)
+            {
+                double avDamage = 0.0;
+                double avHealth = 0.0;
+                double avArmor = 0.0;
 
+                //foreach (var currDragon in kvp.Value)
+                //{
+                //    avDamage += currDragon.Damage;
+                //    avHealth += currDragon.Health;
+                //    avArmor += currDragon.Armor;
+                //}
+
+                //avDamage /= (double)kvp.Value.Count;
+                //avHealth /= (double)kvp.Value.Count;
+                //avArmor /= (double)kvp.Value.Count;
+
+                Console.WriteLine($"{kvp.Key}::({kvp.Value.Select(x => x.Damage).Average():f2}/{kvp.Value.Select(x => x.Health).Average():f2}/{kvp.Value.Select(x => x.Damage).Average():f2})");
+
+                foreach (var currDragon in kvp.Value)
+                {
+                    Console.WriteLine($"-{currDragon.Name} -> damage: {currDragon.Damage}, health: {currDragon.Health}, armor: {currDragon.Armor}");
+                }
+            }
         }
     }
 
     class Dragon
     {
-        public Dragon(string name, int damage, int health, int armor)
+        public Dragon(string name, string damage, string health, string armor)
         {
             this.Name = name;
 
@@ -75,7 +98,7 @@ namespace DragonArmy
             }
             else
             {
-                this.Damage = damage;
+                this.Damage = double.Parse(damage);
             }
 
             if (health.ToString() == "null")
@@ -84,7 +107,7 @@ namespace DragonArmy
             }
             else
             {
-                this.Health = health;
+                this.Health = double.Parse(health);
             }
 
             if (armor.ToString() == "null")
@@ -93,13 +116,13 @@ namespace DragonArmy
             }
             else
             {
-                this.Armor = armor;
+                this.Armor = double.Parse(armor);
             }
         }
 
         public string Name { get; set; }
-        public int Damage { get; set; }
-        public int Health { get; set; }
-        public int Armor { get; set; }
+        public double Damage { get; set; }
+        public double Health { get; set; }
+        public double Armor { get; set; }
     }
 }
