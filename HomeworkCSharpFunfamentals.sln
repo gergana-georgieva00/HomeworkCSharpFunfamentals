@@ -241,6 +241,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsLettersAndOthers", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidUsernames", "ValidUsernames\ValidUsernames.csproj", "{266FA544-9034-4C8E-9B47-877EABFF1D88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterMultiplier", "CharacterMultiplier\CharacterMultiplier.csproj", "{249660E8-9E78-4CC1-81F7-2740AC4BDBC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -723,6 +725,10 @@ Global
 		{266FA544-9034-4C8E-9B47-877EABFF1D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{266FA544-9034-4C8E-9B47-877EABFF1D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{266FA544-9034-4C8E-9B47-877EABFF1D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{249660E8-9E78-4CC1-81F7-2740AC4BDBC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{249660E8-9E78-4CC1-81F7-2740AC4BDBC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{249660E8-9E78-4CC1-81F7-2740AC4BDBC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{249660E8-9E78-4CC1-81F7-2740AC4BDBC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
