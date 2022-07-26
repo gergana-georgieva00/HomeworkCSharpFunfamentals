@@ -259,6 +259,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.Sandbox", "00.Sandbox\00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExplosion2.0", "StringExplosion2.0\StringExplosion2.0.csproj", "{AA782617-E373-4090-B8B8-A8DBFB1C7B09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LettersChangeNumbers", "LettersChangeNumbers\LettersChangeNumbers.csproj", "{FC17E2F1-099C-42BF-96FC-CABD9FF01727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -777,6 +779,10 @@ Global
 		{AA782617-E373-4090-B8B8-A8DBFB1C7B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA782617-E373-4090-B8B8-A8DBFB1C7B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA782617-E373-4090-B8B8-A8DBFB1C7B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC17E2F1-099C-42BF-96FC-CABD9FF01727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC17E2F1-099C-42BF-96FC-CABD9FF01727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC17E2F1-099C-42BF-96FC-CABD9FF01727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC17E2F1-099C-42BF-96FC-CABD9FF01727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
