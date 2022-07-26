@@ -261,6 +261,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExplosion2.0", "Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LettersChangeNumbers", "LettersChangeNumbers\LettersChangeNumbers.csproj", "{FC17E2F1-099C-42BF-96FC-CABD9FF01727}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheImitationGame", "TheImitationGame\TheImitationGame.csproj", "{F1791EDA-34C8-4D3E-A0E8-CAE4C596D300}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -783,6 +785,10 @@ Global
 		{FC17E2F1-099C-42BF-96FC-CABD9FF01727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC17E2F1-099C-42BF-96FC-CABD9FF01727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC17E2F1-099C-42BF-96FC-CABD9FF01727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1791EDA-34C8-4D3E-A0E8-CAE4C596D300}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1791EDA-34C8-4D3E-A0E8-CAE4C596D300}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1791EDA-34C8-4D3E-A0E8-CAE4C596D300}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1791EDA-34C8-4D3E-A0E8-CAE4C596D300}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
