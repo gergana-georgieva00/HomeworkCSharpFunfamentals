@@ -253,6 +253,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiply2.0", "Multiply2.0\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceRepeatingChars", "ReplaceRepeatingChars\ReplaceRepeatingChars.csproj", "{8C7DAA06-B4A2-4A1B-B872-B902A8960532}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExplosion", "StringExplosion\StringExplosion.csproj", "{51AEB8FF-B9CD-42E2-8A72-6E2CA89F908E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.Sandbox", "00.Sandbox\00.Sandbox.csproj", "{603C2DD3-B497-4E5C-B1A1-6DB8E4A7A16F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -759,6 +763,14 @@ Global
 		{8C7DAA06-B4A2-4A1B-B872-B902A8960532}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7DAA06-B4A2-4A1B-B872-B902A8960532}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7DAA06-B4A2-4A1B-B872-B902A8960532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51AEB8FF-B9CD-42E2-8A72-6E2CA89F908E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51AEB8FF-B9CD-42E2-8A72-6E2CA89F908E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51AEB8FF-B9CD-42E2-8A72-6E2CA89F908E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51AEB8FF-B9CD-42E2-8A72-6E2CA89F908E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603C2DD3-B497-4E5C-B1A1-6DB8E4A7A16F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603C2DD3-B497-4E5C-B1A1-6DB8E4A7A16F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603C2DD3-B497-4E5C-B1A1-6DB8E4A7A16F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603C2DD3-B497-4E5C-B1A1-6DB8E4A7A16F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

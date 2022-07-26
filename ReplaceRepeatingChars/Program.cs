@@ -15,10 +15,12 @@ namespace ReplaceRepeatingChars
             foreach (var element in input.ToCharArray())
             {
                 if (output.Count == 0 || output.Last() != element)
+                {
                     output.Add(element);
+                }
             }
 
-            var result = new string(output.ToArray());
+            string result = new string(output.ToArray());
 
             Console.WriteLine(string.Join("", output));
         }
