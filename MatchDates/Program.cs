@@ -7,14 +7,18 @@ namespace MatchDates
     {
         static void Main(string[] args)
         {
-            string text = "I am born on 30-Dec-1994. My father is born on the 9-Jul-1995. 01-July-2000 is not a valid date.";
+            string input = Console.ReadLine();
 
-            Regex regex = new Regex(@"[0-9]{1,2}-([A-Z][a-z]{2})-[1-9]{4}");
-            MatchCollection matches = regex.Matches(text);
+            string regex = @"(?<day>\d{2})(?<separator>.|-|/)(?<month>[A-Z][a-z]{2})\<separator>(?<year>\d{4})";
+            MatchCollection matches = Regex.Matches(input, regex);
 
-            foreach (var match in matches)
+            foreach (Match match in matches)
             {
-                Console.WriteLine(match);
+                string day = match.Groups["day"].Value;
+                string month = match.Groups["month"].Value;
+                string year = match.Groups["year"].Value;
+
+                Console.WriteLine($"Day: {day}, Month: {month}, Year: {year}");
             }
         }
     }
