@@ -265,7 +265,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheImitationGame", "TheImit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdAstra", "AdAstra\AdAstra.csproj", "{CF015DC7-FD6D-41AF-B9F1-DF5B15101A3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regex - lab", "Regex - lab\Regex - lab.csproj", "{8B360B97-C95C-41D6-A1AA-592D32C60465}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Match chars", "Regex - lab\Match chars.csproj", "{8B360B97-C95C-41D6-A1AA-592D32C60465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchDates", "MatchDates\MatchDates.csproj", "{CE2E0119-AB6F-4CE2-A5AA-C514F8A4411B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -801,6 +803,10 @@ Global
 		{8B360B97-C95C-41D6-A1AA-592D32C60465}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B360B97-C95C-41D6-A1AA-592D32C60465}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B360B97-C95C-41D6-A1AA-592D32C60465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2E0119-AB6F-4CE2-A5AA-C514F8A4411B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2E0119-AB6F-4CE2-A5AA-C514F8A4411B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2E0119-AB6F-4CE2-A5AA-C514F8A4411B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2E0119-AB6F-4CE2-A5AA-C514F8A4411B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
