@@ -27,8 +27,12 @@ namespace Furniture
             }
 
             Console.WriteLine("Bought furniture:");
-            Console.WriteLine(string.Join(Environment.NewLine, furniture.Keys));
 
+            if (furniture.Count != 0)
+            {
+                Console.WriteLine(string.Join(Environment.NewLine, furniture.Keys));
+            }
+            
             double sum = 0;
             foreach (var price in pricesAfterMult)
             {
