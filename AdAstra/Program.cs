@@ -7,12 +7,12 @@ namespace AdAstra
     {
         static void Main(string[] args)
         {
-            PrintInParallel();
-        }
+            PrintInParallel();  
+        } 
 
         private static void PrintInParallel()
         {
-            var newThread = new Thread(() =>
+            var newThread = new Thread(() => 
             {
                 for (int i = 0; i < 1000; i++)
                 {

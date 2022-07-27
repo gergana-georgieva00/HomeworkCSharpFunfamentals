@@ -263,6 +263,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LettersChangeNumbers", "Let
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheImitationGame", "TheImitationGame\TheImitationGame.csproj", "{F1791EDA-34C8-4D3E-A0E8-CAE4C596D300}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdAstra", "AdAstra\AdAstra.csproj", "{CF015DC7-FD6D-41AF-B9F1-DF5B15101A3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -789,6 +791,10 @@ Global
 		{F1791EDA-34C8-4D3E-A0E8-CAE4C596D300}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1791EDA-34C8-4D3E-A0E8-CAE4C596D300}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1791EDA-34C8-4D3E-A0E8-CAE4C596D300}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF015DC7-FD6D-41AF-B9F1-DF5B15101A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF015DC7-FD6D-41AF-B9F1-DF5B15101A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF015DC7-FD6D-41AF-B9F1-DF5B15101A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF015DC7-FD6D-41AF-B9F1-DF5B15101A3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
