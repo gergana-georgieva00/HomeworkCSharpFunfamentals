@@ -8,38 +8,34 @@ namespace Furniture
     {
         static void Main(string[] args)
         {
-            Regex regex = new Regex(@">>(?<furnitureName>[a-zA-Z]+)<<(?<price>\d+\.?(\d+)?)!(?<quantity>\d+)");
-            Dictionary<string, string> furniture = new Dictionary<string, string>();
+            string regex = @">>(?<name>[a-zA-Z]+)<<(?<price>\d+\.?\d*)!(?<quantity>\d+)";
+            List<string> furniture = new List<string>();
 
             string input;
-            double multiplication = 0.0;
-            List<double> pricesAfterMult = new List<double>();
+            double priceTotal = 0.0;
             while ((input = Console.ReadLine()) != "Purchase")
             {
-                Match match = regex.Match(input);
+                MatchCollection matches = Regex.Matches(input, regex, RegexOptions.IgnoreCase);
 
-                if (match.Captures.Count != 0)
+                foreach (Match match in matches)
                 {
-                    furniture.Add(match.Groups["furnitureName"].Value, match.Groups["price"].Value);
-                    multiplication = double.Parse(match.Groups["price"].Value) * double.Parse(match.Groups["quantity"].Value);
-                    pricesAfterMult.Add(multiplication);
+                    var name = match.Groups["name"].Value;
+                    var price = double.Parse(match.Groups["price"].Value);
+                    var quantity = int.Parse(match.Groups["quantity"].Value);
+
+                    furniture.Add(name);
+                    priceTotal += price * quantity;
                 }
             }
 
             Console.WriteLine("Bought furniture:");
 
-            if (furniture.Count != 0)
+            if (furniture.Count > 0)
             {
-                Console.WriteLine(string.Join(Environment.NewLine, furniture.Keys));
+                Console.WriteLine(string.Join(Environment.NewLine, furniture));
             }
-            
-            double sum = 0;
-            foreach (var price in pricesAfterMult)
-            {
-                sum += price;
-            }
-
-            Console.WriteLine($"Total money spend: {sum:f2}");
+           
+            Console.WriteLine($"Total money spend: {priceTotal:f2}");
         }
     }
 }
