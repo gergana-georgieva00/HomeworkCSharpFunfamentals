@@ -281,6 +281,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchPhoneNumber", "MatchPh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furniture", "Furniture\Furniture.csproj", "{345308CF-2E1D-4573-A7FA-729F8EC6ECCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Race", "Race\Race.csproj", "{C1DED417-3190-4F98-A040-578A3347AE85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -843,6 +845,10 @@ Global
 		{345308CF-2E1D-4573-A7FA-729F8EC6ECCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{345308CF-2E1D-4573-A7FA-729F8EC6ECCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{345308CF-2E1D-4573-A7FA-729F8EC6ECCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1DED417-3190-4F98-A040-578A3347AE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1DED417-3190-4F98-A040-578A3347AE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1DED417-3190-4F98-A040-578A3347AE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1DED417-3190-4F98-A040-578A3347AE85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
