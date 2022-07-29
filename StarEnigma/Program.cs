@@ -71,17 +71,32 @@ namespace StarEnigma
                 }
             }
 
-            Console.WriteLine($"Attacked planets: {attackedPlanets["A"].Count}");
-            attackedPlanets = attackedPlanets.OrderBy(x => x.Key).ToDictionary(x => x.Key, x => x.Value);
-            foreach (var planet in attackedPlanets["A"])
+            if (attackedPlanets.ContainsKey("A"))
             {
-                Console.WriteLine($"-> {planet}");
+                Console.WriteLine($"Attacked planets: {attackedPlanets["A"].Count}");
+                
+                foreach (var planet in attackedPlanets["A"].OrderBy(x => x))
+                {
+                    Console.WriteLine($"-> {planet}");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Attacked planets: 0");
             }
 
-            Console.WriteLine($"Destroyed planets: {attackedPlanets["D"].Count}");
-            foreach (var planet in attackedPlanets["D"])
+            if (attackedPlanets.ContainsKey("D"))
             {
-                Console.WriteLine($"-> {planet}");
+                Console.WriteLine($"Destroyed planets: {attackedPlanets["D"].Count}");
+
+                foreach (var planet in attackedPlanets["D"].OrderBy(x => x))
+                {
+                    Console.WriteLine($"-> {planet}");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Destroyed planets: 0");
             }
         }
     }
