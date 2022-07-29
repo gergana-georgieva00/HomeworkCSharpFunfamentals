@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -14,7 +15,7 @@ namespace StarEnigma
             string regexSTAR = @"[starSTAR]";
             string regexNewInput = @"^[^@,\-!:>]*@(?<planet>[a-zA-Z]+)[^@,\-!:>]*:(?<population>[0-9]+)[^@,\-!:>]*\!(?<attack>[A|D])\![^@,\-!:>]*->(?<count>[0-9]+)";
 
-            Dictionary<string, string> attackedPlanets = new Dictionary<string, string>();
+            Dictionary<string, List<string>> attackedPlanets = new Dictionary<string, List<string>>();
 
             for (int i = 0; i < n; i++)
             {
@@ -47,25 +48,40 @@ namespace StarEnigma
                     {
                         if (attackedPlanets.ContainsKey("A"))
                         {
-                            attackedPlanets["A"] = planetName;
+                            attackedPlanets["A"].Add(planetName);
                         }
                         else
                         {
-                            attackedPlanets.Add("A", planetName);
+                            attackedPlanets.Add("A", new List<string>());
+                            attackedPlanets["A"].Add(planetName);
                         }
                     }
                     else
                     {
                         if (attackedPlanets.ContainsKey("D"))
                         {
-                            attackedPlanets["D"] = planetName;
+                            attackedPlanets["D"].Add(planetName);
                         }
                         else
                         {
-                            attackedPlanets.Add("D", planetName);
+                            attackedPlanets.Add("D", new List<string>());
+                            attackedPlanets["D"].Add(planetName);
                         }
                     }
                 }
+            }
+
+            Console.WriteLine($"Attacked planets: {attackedPlanets["A"].Count}");
+            attackedPlanets = attackedPlanets.OrderBy(x => x.Key).ToDictionary(x => x.Key, x => x.Value);
+            foreach (var planet in attackedPlanets["A"])
+            {
+                Console.WriteLine($"-> {planet}");
+            }
+
+            Console.WriteLine($"Destroyed planets: {attackedPlanets["D"].Count}");
+            foreach (var planet in attackedPlanets["D"])
+            {
+                Console.WriteLine($"-> {planet}");
             }
         }
     }
