@@ -287,6 +287,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniBarIncome", "SoftUni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarEnigma", "StarEnigma\StarEnigma.csproj", "{7BDF06AC-7742-421B-B6A8-68C14C5BAEE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetherRealms", "NetherRealms\NetherRealms.csproj", "{E4E2234B-37CD-48A2-9EBC-12B177354BBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -861,6 +863,10 @@ Global
 		{7BDF06AC-7742-421B-B6A8-68C14C5BAEE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BDF06AC-7742-421B-B6A8-68C14C5BAEE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BDF06AC-7742-421B-B6A8-68C14C5BAEE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4E2234B-37CD-48A2-9EBC-12B177354BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E2234B-37CD-48A2-9EBC-12B177354BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E2234B-37CD-48A2-9EBC-12B177354BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E2234B-37CD-48A2-9EBC-12B177354BBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
