@@ -9,20 +9,23 @@ namespace NetherRealms
     {
         static void Main(string[] args)
         {
-            string[] input = Console.ReadLine().Split(", ")
+            string[] input = Console.ReadLine().Split(",")
                             .Select(p => p.Trim())
                             .Where(p => !string.IsNullOrWhiteSpace(p))
                             .OrderBy(p => p)
                             .ToArray();
 
             string regexHealth = @"[^[0-9\+\-\*\/\. ]";
-            string regexDamage = @"(\+|\-)?[0-9]+\.?[0-9]*";
+            string regexDamage = @"(\+|\-)?[0-9]+(\.?[0-9]+)?";
             string regexMultAndDiv = @"\*|\/";
 
             SortedDictionary<string, Dictionary<int, double>> demons = new SortedDictionary<string, Dictionary<int, double>>();
 
             for (int i = 0; i < input.Length; i++)
             {
+                input[i] = input[i].Replace(" ", "");
+                input[i] = input[i].Replace(",", "");
+
                 int health = 0;
                 double damage = 0.0;
 
@@ -62,7 +65,7 @@ namespace NetherRealms
                 {
                     for (int j = 0; j < starsCount; j++)
                     {
-                        damage *= 2;
+                        damage *= 2d;
                     }
                 }
 
@@ -70,7 +73,7 @@ namespace NetherRealms
                 {
                     for (int j = 0; j < divisionCount; j++)
                     {
-                        damage /= 2;
+                        damage /= 2d;
                     }
                 }
 
