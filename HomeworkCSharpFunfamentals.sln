@@ -295,6 +295,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretChat", "SecretChat\Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretChat2", "SecretChat2\SecretChat2.csproj", "{890B16AA-F5FB-4DE1-B263-0985DBEA196F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWords", "MirrorWords\MirrorWords.csproj", "{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -885,6 +887,10 @@ Global
 		{890B16AA-F5FB-4DE1-B263-0985DBEA196F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{890B16AA-F5FB-4DE1-B263-0985DBEA196F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{890B16AA-F5FB-4DE1-B263-0985DBEA196F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
