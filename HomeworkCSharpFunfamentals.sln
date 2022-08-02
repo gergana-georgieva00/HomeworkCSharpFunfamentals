@@ -311,6 +311,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldTour", "WorldTour\Worl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestinationMapper", "DestinationMapper\DestinationMapper.csproj", "{F347BC4C-F441-4EA6-9623-EA56CA6F4868}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantDiscovery", "PlantDiscovery\PlantDiscovery.csproj", "{99BB1849-18E7-43CA-A694-F4B2C47BE11D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -933,6 +935,10 @@ Global
 		{F347BC4C-F441-4EA6-9623-EA56CA6F4868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F347BC4C-F441-4EA6-9623-EA56CA6F4868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F347BC4C-F441-4EA6-9623-EA56CA6F4868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BB1849-18E7-43CA-A694-F4B2C47BE11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BB1849-18E7-43CA-A694-F4B2C47BE11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BB1849-18E7-43CA-A694-F4B2C47BE11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BB1849-18E7-43CA-A694-F4B2C47BE11D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
