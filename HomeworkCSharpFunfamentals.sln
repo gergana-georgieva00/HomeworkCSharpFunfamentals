@@ -297,6 +297,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretChat2", "SecretChat2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWords", "MirrorWords\MirrorWords.csproj", "{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed3", "NeedForSpeed3\NeedForSpeed3.csproj", "{810E4B40-D8A6-4EFF-8CC7-B0DE1E8A1123}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -891,6 +893,10 @@ Global
 		{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}.Release|Any CPU.Build.0 = Release|Any CPU
+		{810E4B40-D8A6-4EFF-8CC7-B0DE1E8A1123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{810E4B40-D8A6-4EFF-8CC7-B0DE1E8A1123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{810E4B40-D8A6-4EFF-8CC7-B0DE1E8A1123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{810E4B40-D8A6-4EFF-8CC7-B0DE1E8A1123}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
