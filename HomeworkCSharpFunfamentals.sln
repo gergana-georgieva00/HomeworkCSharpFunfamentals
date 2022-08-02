@@ -317,6 +317,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivationKeys", "Activatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmojiDetector", "EmojiDetector\EmojiDetector.csproj", "{FC5E4F3F-1718-4452-9762-FF661D711C42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P!rates", "P!rates\P!rates.csproj", "{B602E5E6-DB78-40DF-95F1-21D2708F35D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -951,6 +953,10 @@ Global
 		{FC5E4F3F-1718-4452-9762-FF661D711C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5E4F3F-1718-4452-9762-FF661D711C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5E4F3F-1718-4452-9762-FF661D711C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B602E5E6-DB78-40DF-95F1-21D2708F35D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B602E5E6-DB78-40DF-95F1-21D2708F35D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B602E5E6-DB78-40DF-95F1-21D2708F35D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B602E5E6-DB78-40DF-95F1-21D2708F35D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
