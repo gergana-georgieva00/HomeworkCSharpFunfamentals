@@ -327,6 +327,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdAstra2.0", "AdAstra2.0\Ad
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePianist2.0", "ThePianist2.0\ThePianist2.0.csproj", "{3A258244-3EB5-4A93-BEA5-3973C5BC04E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldTour2.0", "WorldTour2.0\WorldTour2.0.csproj", "{042C60F2-7DFE-473F-ACAC-56C53EC25E0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -981,6 +983,10 @@ Global
 		{3A258244-3EB5-4A93-BEA5-3973C5BC04E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A258244-3EB5-4A93-BEA5-3973C5BC04E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A258244-3EB5-4A93-BEA5-3973C5BC04E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042C60F2-7DFE-473F-ACAC-56C53EC25E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042C60F2-7DFE-473F-ACAC-56C53EC25E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042C60F2-7DFE-473F-ACAC-56C53EC25E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042C60F2-7DFE-473F-ACAC-56C53EC25E0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
