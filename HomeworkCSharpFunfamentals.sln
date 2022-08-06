@@ -289,37 +289,39 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarEnigma", "StarEnigma\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetherRealms", "NetherRealms\NetherRealms.csproj", "{E4E2234B-37CD-48A2-9EBC-12B177354BBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractEmails", "ExtractEmails\ExtractEmails.csproj", "{BD2108ED-6159-47F0-92CD-BE06ACC39912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtractEmails", "ExtractEmails\ExtractEmails.csproj", "{BD2108ED-6159-47F0-92CD-BE06ACC39912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretChat", "SecretChat\SecretChat.csproj", "{6169EF61-C919-4AD3-8905-8B911A866107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretChat", "SecretChat\SecretChat.csproj", "{6169EF61-C919-4AD3-8905-8B911A866107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretChat2", "SecretChat2\SecretChat2.csproj", "{890B16AA-F5FB-4DE1-B263-0985DBEA196F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretChat2", "SecretChat2\SecretChat2.csproj", "{890B16AA-F5FB-4DE1-B263-0985DBEA196F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWords", "MirrorWords\MirrorWords.csproj", "{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MirrorWords", "MirrorWords\MirrorWords.csproj", "{4E22CDBC-1FE2-4BDF-BB0D-DE1544521193}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed3", "NeedForSpeed3\NeedForSpeed3.csproj", "{810E4B40-D8A6-4EFF-8CC7-B0DE1E8A1123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeedForSpeed3", "NeedForSpeed3\NeedForSpeed3.csproj", "{810E4B40-D8A6-4EFF-8CC7-B0DE1E8A1123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePianist", "ThePianist\ThePianist.csproj", "{CA4E130F-6DBB-4FB1-A540-AECB0A1838B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThePianist", "ThePianist\ThePianist.csproj", "{CA4E130F-6DBB-4FB1-A540-AECB0A1838B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PasswordReset", "PasswordReset\PasswordReset.csproj", "{12AC9984-5E57-4690-B9CA-ADF3085A075F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PasswordReset", "PasswordReset\PasswordReset.csproj", "{12AC9984-5E57-4690-B9CA-ADF3085A075F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FancyBarcodes", "FancyBarcodes\FancyBarcodes.csproj", "{B399C146-3A9F-45B8-90C7-C3D3CF646941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FancyBarcodes", "FancyBarcodes\FancyBarcodes.csproj", "{B399C146-3A9F-45B8-90C7-C3D3CF646941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroesOfCodeAndLogicVII", "HeroesOfCodeAndLogicVII\HeroesOfCodeAndLogicVII.csproj", "{01DE6D7F-F9C3-41F4-AF01-383DF9129876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroesOfCodeAndLogicVII", "HeroesOfCodeAndLogicVII\HeroesOfCodeAndLogicVII.csproj", "{01DE6D7F-F9C3-41F4-AF01-383DF9129876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldTour", "WorldTour\WorldTour.csproj", "{3B1BA846-3C98-47EC-A504-F0EBF6E26DB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorldTour", "WorldTour\WorldTour.csproj", "{3B1BA846-3C98-47EC-A504-F0EBF6E26DB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DestinationMapper", "DestinationMapper\DestinationMapper.csproj", "{F347BC4C-F441-4EA6-9623-EA56CA6F4868}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DestinationMapper", "DestinationMapper\DestinationMapper.csproj", "{F347BC4C-F441-4EA6-9623-EA56CA6F4868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantDiscovery", "PlantDiscovery\PlantDiscovery.csproj", "{99BB1849-18E7-43CA-A694-F4B2C47BE11D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlantDiscovery", "PlantDiscovery\PlantDiscovery.csproj", "{99BB1849-18E7-43CA-A694-F4B2C47BE11D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivationKeys", "ActivationKeys\ActivationKeys.csproj", "{68AD9E8A-1BD5-4256-9E27-28046725B60A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActivationKeys", "ActivationKeys\ActivationKeys.csproj", "{68AD9E8A-1BD5-4256-9E27-28046725B60A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmojiDetector", "EmojiDetector\EmojiDetector.csproj", "{FC5E4F3F-1718-4452-9762-FF661D711C42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmojiDetector", "EmojiDetector\EmojiDetector.csproj", "{FC5E4F3F-1718-4452-9762-FF661D711C42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P!rates", "P!rates\P!rates.csproj", "{B602E5E6-DB78-40DF-95F1-21D2708F35D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P!rates", "P!rates\P!rates.csproj", "{B602E5E6-DB78-40DF-95F1-21D2708F35D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinningTicket", "WinningTicket\WinningTicket.csproj", "{2BBBE4B6-FDA3-4490-B11B-1ED196008ADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinningTicket", "WinningTicket\WinningTicket.csproj", "{2BBBE4B6-FDA3-4490-B11B-1ED196008ADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheImitationGame2.0", "TheImitationGame2.0\TheImitationGame2.0.csproj", "{596D6F9A-9EB9-409C-BF61-B969B89A112C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -963,6 +965,10 @@ Global
 		{2BBBE4B6-FDA3-4490-B11B-1ED196008ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BBBE4B6-FDA3-4490-B11B-1ED196008ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BBBE4B6-FDA3-4490-B11B-1ED196008ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596D6F9A-9EB9-409C-BF61-B969B89A112C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596D6F9A-9EB9-409C-BF61-B969B89A112C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596D6F9A-9EB9-409C-BF61-B969B89A112C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596D6F9A-9EB9-409C-BF61-B969B89A112C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
