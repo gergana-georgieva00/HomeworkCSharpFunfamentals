@@ -335,6 +335,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantDiscovery2.0", "PlantD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretChat2.0", "SecretChat2.0\SecretChat2.0.csproj", "{10549F85-836E-4DFF-B4DA-CD2F42996D93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWords2.0", "MirrorWords2.0\MirrorWords2.0.csproj", "{C59AF60E-E7C4-473F-8EDC-AF4D7CE27978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1005,6 +1007,10 @@ Global
 		{10549F85-836E-4DFF-B4DA-CD2F42996D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10549F85-836E-4DFF-B4DA-CD2F42996D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10549F85-836E-4DFF-B4DA-CD2F42996D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C59AF60E-E7C4-473F-8EDC-AF4D7CE27978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C59AF60E-E7C4-473F-8EDC-AF4D7CE27978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C59AF60E-E7C4-473F-8EDC-AF4D7CE27978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C59AF60E-E7C4-473F-8EDC-AF4D7CE27978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
